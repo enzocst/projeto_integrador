@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Neurônios (celula nervosa) e Sinapses</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> -->
+
+  <!-- Vendor CSS Files -->
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/aos.css" rel="stylesheet">
+  <link href="css/glightbox css/glightbox.min.css" rel="stylesheet">
+  <link href="css/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- Arquivos -->
+  <link rel="stylesheet" href="css/Neuro-e-sinapse2.css" media="screen">
+  <link rel="stylesheet" href="css/Neuro-e-sinapse.css" media="screen">
+  <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script>
+  <script class="u-script" type="text/javascript" src="js/neurosinapse.js" defer=""></script>
+  <meta name="generator" content="Nicepage 5.4.4, nicepage.com">
+  <link id="u-theme-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+
+</head>
+
+<body>
+
+  <!-- Menu -->
+  <header class="u-clearfix u-custom-color-2 u-header u-header" id="sec-5c80">
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
+        <div class="menu-collapse u-custom-font u-font-arial"
+          style="font-size: 1rem; letter-spacing: 0px; text-transform: uppercase;">
+          <a class="u-button-style u-custom-border-radius u-custom-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
+            href="#">
+            <svg class="u-svg-link" viewBox="0 0 24 24">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use>
+            </svg>
+            <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px"
+              xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <rect y="1" width="16" height="2"></rect>
+                <rect y="7" width="16" height="2"></rect>
+                <rect y="13" width="16" height="2"></rect>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <div class="u-custom-menu u-nav-container">
+          <ul class="u-custom-font u-font-arial u-nav u-spacing-31 u-unstyled u-nav-1">
+            <li class="u-nav-item"><a
+                class="u-button-style u-custom-color-3 u-hover-white u-nav-link u-radius-9 u-text-active-white u-text-hover-custom-color-3"
+                href="Página-Inicial.html" style="padding: 10px 4px;">Página Inicial</a>
+            </li>
+            <li class="u-nav-item"><a
+                class="u-button-style u-custom-color-3 u-hover-white u-nav-link u-radius-9 u-text-active-white u-text-hover-custom-color-3"
+                style="padding: 10px 4px;" href="Introdução-e-tipos.html">Introdução</a>
+            </li>
+            <li class="u-nav-item"><a
+                class="u-button-style u-custom-color-3 u-hover-white u-nav-link u-radius-9 u-text-active-white u-text-hover-custom-color-3"
+                style="padding: 10px 4px;" href="Estrutura.html">Estrutura</a>
+            </li>
+            <li class="u-nav-item"><a
+                class="u-button-style u-custom-color-3 u-hover-white u-nav-link u-radius-9 u-text-active-white u-text-hover-custom-color-3"
+                style="padding: 10px 4px;" href="Impulso-nervoso.html">Impulso Nervoso</a>
+            </li>
+            <li class="u-nav-item"><a
+                class="u-button-style u-custom-color-3 u-hover-white u-nav-link u-radius-9 u-text-active-white u-text-hover-custom-color-3"
+                style="padding: 10px 4px;" href="Neuro-e-sinapse.html">Neurotransmissores e Sinapses</a>
+            </li>
+          </ul>
+        </div>
+        <div class="u-custom-menu u-nav-container-collapse">
+          <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+            <div class="u-inner-container-layout u-sidenav-overflow">
+              <div class="u-menu-close"></div>
+              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Página-Inicial.html">Página
+                    Inicial</a>
+                </li>
+                <li class="u-nav-item"><a class="u-button-style u-nav-link"
+                    href="Introdução-e-tipos.html.html">Introdução</a>
+                </li>
+                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Estrutura.html">Estrutura</a>
+                </li>
+                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Impulso-nervoso.html">Impulso
+                    Nervoso</a>
+                </li>
+                <li class="u-nav-item"><a class="u-button-style u-nav-link"
+                    href="Neuro-e-sinapse.html">Neurotransmissores e Sinapses</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Fim Menu -->
+
+  <!-- ======= Home ======= -->
+  <section id="home" class="home">
+    <div class="container position-relative">
+      <div class="row gy-5" data-aos="fade-in">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+          <h2>Neurônios e Sinapses</h2>
+          <h3>Introduçaõ e os tipos de neuronios</h3>
+          <p>O que é um neurônio? Qual sua função no funcionamento do corpo humano? Quais são os diferentes tipos dessa
+            célula?</p>
+          <p></p>
+
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#parte1" class="btn-get-started">Começar</a>
+            <a href="images/duda.jpg" class="glightbox btn-watch-video d-flex align-items-center"><i
+                class="u-icon"></i><span>Assista o vídeo</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="images/iconeneuronio2.png" class="imagem1">
+        </div>
+      </div>
+    </div>
+    <br>
+  </section>
+  <!-- Fim Home -->
+
+  <main id="main">
+
+    <!-- ======= Primeira Parte ======= -->
+    <section id="parte1" class="parte1">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>O que é um neurônio?</h2>
+          <p></p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <p>Os neurônios são considerados a unidade básica do sistema nervoso. São as células responsáveis pela
+              recepção e transmissão dos estímulos do meio (interno e externo). Para exercerem tais funções, contam com
+              duas propriedades fundamentais: a excitabilidade e a condutibilidade.
+            </p>
+            <p>A excitabilidade é a propriedade que torna a célula apta a responder aos estímulos do meio, sejam eles
+              internos ou externos.
+            </p>
+            <p>Já a condutibilidade é a resposta provocada pelos os estímulos e emitida pelos neurônios que
+              assemelha-se a uma corrente elétrica transmitida ao longo de um fio condutor.
+            </p>
+            <p>
+              Sendo assim, uma vez excitados pelos estímulos, os neurônios transmitem essa onda de excitação - chamada
+              de impulso nervoso.
+            </p>
+            <!-- <div class="d-flex justify-content-center justify-content-lg-start">
+              <a href="#tipos" class="btn-proximo">Prosseguir</a>
+            </div> -->
+          </div>
+
+          <div class="col-lg-6">
+            <div class="content ps-0 ps-lg-5">
+
+              <div class="position-relative mt-1">
+                <img src="images/neuronio3d.jpg" class="img-texto rounded-4">
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Fim Primeira Parte -->
+
+    <!-- Segunda Parte -->
+    <section id="tipos" class="parte2 sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Tipos de neurônios:</h2>
+          <p>Os neurônios podem se classificar pela sua forma (multipolares, bipolares, unipolares e pseudo-unipolares)
+            ou pela sua função
+            (motores, sensoriais e interneurônios).</p>
+        </div>
+
+        <div class="section-header">
+          <h3>Classificações segundo a forma</h3>
+        </div>
+
+        <div class="parte2-isotope" data-portfolio-layout="masonry" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="row gy-4 parte2-container">
+
+            <div class="col-xl-3 col-md-6 parte2-item">
+              <div class="parte2-wrap">
+                <img src="images/multipolar.png" class="img-fluid" alt=""></a>
+                <div class="parte2-info">
+                  <h4>Neurônios multipolares</h4>
+                  <p>Possuem muitos prolongamentos celulares, vários dendritos e um axônio e são os mais comuns;</p>
+                </div>
+              </div>
+            </div><!-- Fim tipo de neurônio -->
+
+            <div class="col-xl-3 col-md-6 parte2-item">
+              <div class="parte2-wrap">
+                <img src="images/bipolar.png" class="img-fluid" alt=""></a>
+                <div class="parte2-info">
+                  <h4>Neurônios bipolares</h4>
+                  <p>Possuem apenas dois prolongamentos, ou seja, um axônio e outro prolongamento que pode se ramificar
+                    em dendritos;
+                  </p>
+                </div>
+              </div>
+            </div><!-- Fim tipo de neurônio -->
+
+            <div class="col-xl-3 col-md-6 parte2-item">
+              <div class="parte2-wrap">
+                <img src="images/unipolar.png" class="img-fluid" alt=""></a>
+                <div class="parte2-info">
+                  <h4>Neurônios unipolares</h4>
+                  <p>Possuem apenas um prolongamento, o axônio.
+                  </p>
+                </div>
+              </div>
+            </div><!-- Fim tipo de neurônio -->
+
+            <div class="col-xl-3 col-md-6 parte2-item">
+              <div class="parte2-wrap">
+                <img src="images/pseudo-unipolares.png" class="img-fluid" alt=""></a>
+                <div class="parte2-info">
+                  <h4>Neurônios pseudo-unipolares</h4>
+                  <p>Apresentam apenas um prolongamento que parte do corpo celular que se divide em dois. Um assume o
+                    papel de dendrito, e o outro possui papel de axônio;
+                  </p>
+                </div>
+              </div>
+            </div><!-- Fim tipo de neurônio -->
+
+            <div class="section-header">
+              <br>
+              <h3>Classificações segundo a função</h3>
+            </div>
+
+            <div class="col-xl-4 col-md-6 parte2-item">
+              <div class="parte2-wrap">
+                <img src="images/neuronio.png" class="img-tipos2">
+                <div class="parte2-info">
+                  <h4>Neurônios sensoriais</h4>
+                  <p>Transmitem para o Sistema Nervoso Central (SNC) as informações captadas pelos órgãos sensoriais, ou
+                    seja, os estímulos recebidos de fora do corpo.</p>
+                </div>
+              </div>
+            </div><!-- Fim tipo de neurônio -->
+
+            <div class="col-xl-4 col-md-6 parte2-item">
+              <div class="parte2-wrap">
+                <img src="images/neuronio.png" class="img-tipos2"></a>
+                <div class="parte2-info">
+                  <h4>Neurônios motores</h4>
+                  <p>Recebem as informações do SNC e as transmitem para os diversos órgãos responsáveis pelos movimentos
+                    musculares do corpo.</p>
+                </div>
+              </div>
+            </div><!-- Fim tipo de neurônio -->
+
+            <div class="col-xl-4 col-md-6 parte2-item">
+              <div class="parte2-wrap">
+                <img src="images/neuronio.png" class="img-tipos2"></a>
+                <div class="parte2-info">
+                  <h4>Neurônios associativos ou interneurônios</h4>
+                  <p>São encontrados no SNC e estabelecem a conexão entre os neurônios sensoriais e os neurônios
+                    motores.</p>
+                </div>
+              </div>
+            </div><!-- Fim tipo de neurônio -->
+
+          </div>
+        </div>
+    </section>
+    <!-- Fim Segunda Parte -->
+
+    <!-- ======= Footer ======= -->
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-aeaf">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1"
+            href="Sobre-nos.html">Quem somos?<span style="font-size: 1rem;"></span>
+          </a>
+        </p>
+        <p class="u-small-text u-text u-text-variant u-text-2">Site e projeto com fins educativos.</p>
+      </div>
+    </footer>
+    <!-- Fim Footer -->
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="js/bootstrap js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/glightbox js/glightbox.min.js"></script>
+    <script src="js/purecounter_vanilla.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="js/main.js"></script>
+    <script src="js/glightbox js/glightbox.min.js"></script>
+
+</body>
+
+</html>
